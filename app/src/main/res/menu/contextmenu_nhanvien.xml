@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menusuanhanvien"
+        android:title="Sửa Nhân Viên" />
+    <item
+        android:id="@+id/menuchuyenphongban"
+        android:title="Chuyển Phòng Ban" />
+    <item
+        android:id="@+id/menuxoanhanvien"
+        android:title="Xóa Nhân Viên" />
+</menu>

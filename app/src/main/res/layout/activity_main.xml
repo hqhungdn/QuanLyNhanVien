@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hqhhcmus.quanlynhanvien.MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mã phòng ban:" />
+
+        <EditText
+            android:id="@+id/editTextMaphongban"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tên phòng ban:" />
+
+        <EditText
+            android:id="@+id/editTextTenphongban"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonLuuPB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu phòng ban"
+        android:textAllCaps="false"
+        android:layout_marginLeft="200dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cfcccb"
+        android:text="TextView" />
+
+    <ListView
+        android:id="@+id/listViewPhongban"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
